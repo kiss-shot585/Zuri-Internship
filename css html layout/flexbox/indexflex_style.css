@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+main{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    height: 50%;
+    width: 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.sedan footer{
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.sedan img{
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.sedan h3{
+    color: hsl(0, 0%, 95%);
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.sedan button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+.sedan p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 2rem;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    height: 50%;
+    width: 20%;
+    
+}
+.suv img{
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.suv h3{
+    color: hsl(0, 0%, 95%);
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.suv button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+.suv p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 2rem;
+}
+.suv footer{
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.lux{
+    background-color: hsl(179, 100%, 13%);
+    height: 50%;
+    width: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.lux img{
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.lux h3{
+    color: hsl(0, 0%, 95%);
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.lux button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+.lux p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 2rem;
+}
+
+.lux footer{
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
